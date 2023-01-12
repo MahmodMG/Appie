@@ -63,10 +63,11 @@ html {
 }
 
 body {
-  max-width: 1200px;
+  /* padding: 0 4.8rem; */
+  width: 120rem;
   font-family: "Roboto", sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: #555;
+  color: #464963;
   margin: 0 auto;
 }
