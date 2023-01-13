@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
 
     <script
       type="module"
@@ -51,14 +52,18 @@
           </ul>
         </nav>
         <button class="btn-nav">Get Started</button>
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        </button>
       </header>
       <main>
         <section class="section-hero">
           <div class="hero">
             <div class="hero-text-box">
               <h1 class="heading1">
-                Ready to launch your app in one,
-                <span class="strong">Application</span>
+                Ready to launch<br />
+                your app in one,<br />
+                <strong class="strong">Application</strong>
               </h1>
               <p class="hero-description">
                 Find the best applecation in appie.
@@ -114,146 +119,158 @@
             <img class="hero-image" alt="phone" src="Project_Images/hero.png" />
           </div>
         </section>
-        <section class="features-section">
-          <div class="feature-container">
-            <div class="feature-box">
-              <h2 class="heading-secondary">How does it work</h2>
-              <p class="feature-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Inventore
-              </p>
+        <div class="container">
+          <section class="features-section">
+            <div class="feature-container">
+              <div class="feature-box">
+                <h2 class="heading-secondary">How does it work</h2>
+                <p class="feature-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Inventore
+                </p>
+              </div>
+              <div class="all-features">
+                <button class="btn-feature">
+                  Veiw all features<svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="feature-icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                    />
+                  </svg>
+                </button>
+              </div>
             </div>
-            <div class="all-features">
-              <button class="btn-feature">
-                Veiw all features<svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="feature-icon"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
-                  />
-                </svg>
-              </button>
+          </section>
+        </div>
+        <div class="container">
+          <section class="grid-3-col">
+            <div>
+              <div class="grid-box">
+                <ion-icon class="icon-flash" name="flash"></ion-icon>
+                <h3>Fast and intuitive</h3>
+                <p class="grid-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  inventore, vitae vero quam enim est magni ipsam deserunt
+                </p>
+                <a href="#" class="grid-more">Read more &rarr;</a>
+              </div>
             </div>
-          </div>
-        </section>
-        <section class="grid-3-col">
-          <div>
-            <div class="grid-box">
-              <ion-icon class="icon-flash" name="flash"></ion-icon>
-              <h3>Fast and intuitive</h3>
-              <p class="grid-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-                inventore, vitae vero quam enim est magni ipsam deserunt
-              </p>
-              <a href="#" class="grid-more">Read more &rarr;</a>
-            </div>
-          </div>
-          <div>
-            <div class="grid-box">
-              <ion-icon class="icon-home" name="home"></ion-icon>
+            <div>
+              <div class="grid-box">
+                <ion-icon class="icon-home" name="home"></ion-icon>
 
-              <h3>Fast and intuitive</h3>
-              <p class="grid-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-                inventore, vitae vero quam enim est magni ipsam deserunt
-              </p>
-              <a href="#" class="grid-more">Read more &rarr;</a>
+                <h3>Fast and intuitive</h3>
+                <p class="grid-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  inventore, vitae vero quam enim est magni ipsam deserunt
+                </p>
+                <a href="#" class="grid-more">Read more &rarr;</a>
+              </div>
             </div>
-          </div>
-          <div>
-            <div class="grid-box">
-              <ion-icon class="icon-attach" name="attach"></ion-icon>
+            <div>
+              <div class="grid-box">
+                <ion-icon class="icon-attach" name="attach"></ion-icon>
 
-              <h3>Fast and intuitive</h3>
-              <p class="grid-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-                inventore, vitae vero quam enim est magni ipsam deserunt
-              </p>
-              <a href="#" class="grid-more">Read more &rarr;</a>
+                <h3>Fast and intuitive</h3>
+                <p class="grid-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  inventore, vitae vero quam enim est magni ipsam deserunt
+                </p>
+                <a href="#" class="grid-more">Read more &rarr;</a>
+              </div>
             </div>
-          </div>
-          <div>
-            <div class="grid-box">
-              <ion-icon class="icon-ring" name="notifications"></ion-icon>
+            <div>
+              <div class="grid-box">
+                <ion-icon class="icon-ring" name="notifications"></ion-icon>
 
-              <h3>Fast and intuitive</h3>
-              <p class="grid-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-                inventore, vitae vero quam enim est magni ipsam deserunt
-              </p>
-              <a href="#" class="grid-more">Read more &rarr;</a>
+                <h3>Fast and intuitive</h3>
+                <p class="grid-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  inventore, vitae vero quam enim est magni ipsam deserunt
+                </p>
+                <a href="#" class="grid-more">Read more &rarr;</a>
+              </div>
             </div>
-          </div>
-          <div>
-            <div class="grid-box">
-              <ion-icon class="icon-setting" name="settings"></ion-icon>
+            <div>
+              <div class="grid-box">
+                <ion-icon class="icon-setting" name="settings"></ion-icon>
 
-              <h3>Fast and intuitive</h3>
-              <p class="grid-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-                inventore, vitae vero quam enim est magni ipsam deserunt
-              </p>
-              <a href="#" class="grid-more">Read more &rarr;</a>
+                <h3>Fast and intuitive</h3>
+                <p class="grid-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  inventore, vitae vero quam enim est magni ipsam deserunt
+                </p>
+                <a href="#" class="grid-more">Read more &rarr;</a>
+              </div>
             </div>
-          </div>
-          <div>
-            <div class="grid-box">
-              <ion-icon class="icon-lock" name="lock-closed"></ion-icon>
+            <div>
+              <div class="grid-box">
+                <ion-icon class="icon-lock" name="lock-closed"></ion-icon>
 
-              <h3>Fast and intuitive</h3>
-              <p class="grid-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-                inventore, vitae vero quam enim est magni ipsam deserunt
-              </p>
-              <a href="#" class="grid-more">Read more &rarr;</a>
+                <h3>Fast and intuitive</h3>
+                <p class="grid-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  inventore, vitae vero quam enim est magni ipsam deserunt
+                </p>
+                <a href="#" class="grid-more">Read more &rarr;</a>
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
+        </div>
         <section class="explore">
-          <div class="grid-2-cols">
-            <div class="picture">
-              <img
-                class="marketing-img"
-                alt="phone"
-                src="Project_Images/about-thumb.png"
-              />
-            </div>
-            <div class="marketing">
-              <p class="market">Marketing</p>
-              <h2>
-                Make a lasting<br />
-                impression with appie.
-              </h2>
-              <p class="market-text">
-                Jolly good quaint james bond victoria<br />
-                sponge happy days cras arse over blatant.
-              </p>
-              <div class="advantages">
-                <div class="design">
-                  <p class="heading-design">
-                    <ion-icon class="right" name="checkmark-circle"></ion-icon>
-                    carefully designed
-                  </p>
-                  <p class="description-design">
-                    Mucher plastered bugger all<br />
-                    mate morish are.
-                  </p>
-                </div>
-                <div class="design">
-                  <p class="heading-design">
-                    <ion-icon class="right" name="checkmark-circle"></ion-icon>
-                    choose a App
-                  </p>
-                  <p class="description-design">
-                    Mucher plastered bugger all <br />mate morish are.
-                  </p>
+          <div class="container">
+            <div class="grid-2-cols">
+              <div class="picture">
+                <img
+                  class="marketing-img"
+                  alt="phone"
+                  src="Project_Images/about-thumb.png"
+                />
+              </div>
+              <div class="marketing">
+                <p class="market">Marketing</p>
+                <h2>
+                  Make a lasting<br />
+                  impression with appie.
+                </h2>
+                <p class="market-text">
+                  Jolly good quaint james bond victoria sponge happy days cras
+                  <br />arse over blatant.
+                </p>
+                <div class="advantages">
+                  <div class="design">
+                    <p class="heading-design">
+                      <ion-icon
+                        class="right"
+                        name="checkmark-circle"
+                      ></ion-icon>
+                      carefully designed
+                    </p>
+                    <p class="description-design">
+                      Mucher plastered bugger all<br />
+                      mate morish are.
+                    </p>
+                  </div>
+                  <div class="design">
+                    <p class="heading-design">
+                      <ion-icon
+                        class="right"
+                        name="checkmark-circle"
+                      ></ion-icon>
+                      choose a App
+                    </p>
+                    <p class="description-design">
+                      Mucher plastered bugger all <br />mate morish are.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -309,304 +326,320 @@
           </div>
         </section>
         <section class="statistics-section">
-          <div class="statistics">
-            <div class="statistic-box">
-              <p class="statistics-head">How does it work</p>
-              <p class="statistics-text">
+          <div class="container">
+            <div class="statistics">
+              <div class="statistic-box">
+                <p class="statistics-head">How does it work</p>
+                <p class="statistics-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Inventore
+                </p>
+              </div>
+            </div>
+            <div class="statistics-container">
+              <div class="statistics-box">
+                <img
+                  alt="counter"
+                  src="Project_Images/icons/counter-icon-1.svg"
+                />
+                <p class="statistic"><strong>45</strong>k+</p>
+                <span>active insallation</span>
+              </div>
+              <div class="statistics-box">
+                <img alt="icon" src="Project_Images/icons/counter-icon-2.svg" />
+                <p class="statistic"><strong>108</strong>+</p>
+                <span>active insallation</span>
+              </div>
+              <div class="statistics-box">
+                <img alt="icon" src="Project_Images/icons/counter-icon-3.svg" />
+                <p class="statistic"><strong>307</strong>+</p>
+                <span>active insallation</span>
+              </div>
+              <div class="statistics-box">
+                <img alt="icon" src="Project_Images/icons/counter-icon-4.svg" />
+                <p class="statistic"><strong>725</strong>k+</p>
+                <span>active insallation</span>
+              </div>
+            </div>
+            <div class="learn-how-img">
+              <div class="video">
+                <img
+                  alt="thumb"
+                  class="video-thumb"
+                  src="Project_Images/video-thumb-1.jpg"
+                />
+                <ion-icon class="play" name="play"></ion-icon>
+              </div>
+              <img
+                alt="slide"
+                class="video-slide"
+                src="Project_Images/video-slide-1.jpg"
+              />
+            </div>
+            <div class="learn-how">
+              <div class="learn-how-box">
+                <p class="learn-text">
+                  Watch the two-minute video to learn how.
+                </p>
+                <div class="how-button">
+                  <button class="button-icon">
+                    <ion-icon
+                      class="outline"
+                      name="arrow-back-outline"
+                    ></ion-icon></button
+                  ><button class="button-icon">
+                    <ion-icon
+                      class="outline"
+                      name="arrow-forward-outline"
+                    ></ion-icon>
+                  </button>
+                </div>
+              </div>
+              <p class="learn-des">
+                the wireless cheesed on your bike mate zonked a load of old tosh
+                hunky dory its all gone to pot<br />
+                haggle william car boot pear shaped geeza
+              </p>
+
+              <button class="Get-started">Get started</button>
+            </div>
+          </div>
+        </section>
+        <div class="container">
+          <section class="">
+            <div class="application">
+              <div class="app-container">
+                <p class="market">Download Our App</p>
+                <p class="app-text">
+                  App is available
+                  <br />for free on app store
+                </p>
+                <p class="market-text app">
+                  Jolly good quaint james bond victoria sponge happy days
+                  cras<br />
+                  arse over plane blatant
+                </p>
+                <div class="ios-android">
+                  <button class="btn-ios">
+                    <ion-icon class="logo-apple" name="logo-apple"></ion-icon>
+                    <span class="app">
+                      Download for <span class="ios">iOS</span>
+                    </span></button
+                  ><button class="btn-android">
+                    <ion-icon
+                      class="logo-android"
+                      name="logo-google-playstore"
+                    ></ion-icon>
+                    <span class="app"
+                      >Download for <span class="ios">Android</span></span
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="pricing-header">
+              <p class="pricing-head">Simple pricing for Everyone</p>
+              <p class="pricing-text">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Inventore
               </p>
             </div>
-          </div>
-          <div class="statistics-container">
-            <div class="statistics-box">
-              <img
-                alt="counter"
-                src="Project_Images/icons/counter-icon-1.svg"
-              />
-              <p class="statistic"><strong>45</strong>k+</p>
-              <span>active insallation</span>
+            <div class="btn-wrap">
+              <button class="month">Monthly</button>
+              <button class="year">Yearly</button>
             </div>
-            <div class="statistics-box">
-              <img alt="icon" src="Project_Images/icons/counter-icon-2.svg" />
-              <p class="statistic"><strong>108</strong>+</p>
-              <span>active insallation</span>
-            </div>
-            <div class="statistics-box">
-              <img alt="icon" src="Project_Images/icons/counter-icon-3.svg" />
-              <p class="statistic"><strong>307</strong>+</p>
-              <span>active insallation</span>
-            </div>
-            <div class="statistics-box">
-              <img alt="icon" src="Project_Images/icons/counter-icon-4.svg" />
-              <p class="statistic"><strong>725</strong>k+</p>
-              <span>active insallation</span>
-            </div>
-          </div>
-          <div class="learn-how-img">
-            <div class="video">
-              <img
-                alt="thumb"
-                class="video-thumb"
-                src="Project_Images/video-thumb-1.jpg"
-              />
-              <ion-icon class="play" name="play"></ion-icon>
-            </div>
-            <img
-              alt="slide"
-              class="video-slide"
-              src="Project_Images/video-slide-1.jpg"
-            />
-          </div>
-          <div class="learn-how">
-            <div class="learn-how-box">
-              <p class="learn-text">Watch the two-minute video to learn how.</p>
-              <div class="how-button">
-                <button class="button-icon">
-                  <ion-icon
-                    class="outline"
-                    name="arrow-back-outline"
-                  ></ion-icon></button
-                ><button class="button-icon">
-                  <ion-icon
-                    class="outline"
-                    name="arrow-forward-outline"
-                  ></ion-icon>
-                </button>
-              </div>
-            </div>
-            <p class="learn-des">
-              the wireless cheesed on your bike mate zonked a load of old tosh
-              hunky dory its all gone to pot<br />
-              haggle william car boot pear shaped geeza
-            </p>
-
-            <button class="Get-started">Get started</button>
-          </div>
-          <div class="application">
-            <div class="app-container">
-              <p class="market">Download Our App</p>
-              <p class="app-text">
-                App is available
-                <br />for free on app store
-              </p>
-              <p class="market-text app">
-                Jolly good quaint james bond victoria sponge happy days cras<br />
-                arse over plane blatant
-              </p>
-              <div class="ios-android">
-                <button class="btn-ios">
-                  <ion-icon class="logo-apple" name="logo-apple"></ion-icon>
-                  <span class="app">
-                    Download for <span class="ios">iOS</span>
-                  </span></button
-                ><button class="btn-android">
-                  <ion-icon
-                    class="logo-android"
-                    name="logo-google-playstore"
-                  ></ion-icon>
-                  <span class="app"
-                    >Download for <span class="ios">Android</span></span
-                  >
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="pricing-section">
-          <div class="pricing-header">
-            <p class="pricing-head">Simple pricing for Everyone</p>
-            <p class="pricing-text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Inventore
-            </p>
-          </div>
-          <div class="btn-wrap">
-            <button class="month">Monthly</button>
-            <button class="year">Yearly</button>
-          </div>
-          <div class="grid-pricing">
-            <div class="option">
-              <p class="pricing-type">Fresh</p>
-              <p class="cost">
-                <span class="dolar">$</span>
-                <strong class="strong-cost">04</strong>/month
-              </p>
-              <p class="trial">Get your 14 day free trial</p>
-              <ul class="pricing-list">
-                <li class="prp">
-                  <ion-icon class="checkmark" name="checkmark"></ion-icon>60-day
-                  chat history
-                </li>
-                <li class="prp">
-                  <ion-icon class="checkmark" name="checkmark"></ion-icon>15 GB
-                  could storage
-                </li>
-                <li class="prp">
-                  <ion-icon class="checkmark" name="checkmark"></ion-icon>24/7
-                  Support
-                </li>
-              </ul>
-              <button class="choose-plan">Choose plan</button>
-            </div>
-            <div class="option special">
-              <p class="pricing-type">Sweet</p>
-              <p class="cost">
-                <span class="dolar">$</span>
-                <strong class="strong-cost">16</strong>/month
-              </p>
-              <p class="trial">Billed $276 per website annualy</p>
-              <ul class="pricing-list">
-                <li class="prp">
-                  <ion-icon class="checkmark" name="checkmark"></ion-icon>60-day
-                  chat history
-                </li>
-                <li class="prp">
-                  <ion-icon class="checkmark" name="checkmark"></ion-icon>50 GB
-                  could storage
-                </li>
-                <li class="prp">
-                  <ion-icon class="checkmark" name="checkmark"></ion-icon>24/7
-                  Support
-                </li>
-              </ul>
-              <button class="choose-plan sp">Choose plan</button>
-            </div>
-            <div class="option">
-              <p class="pricing-type">Juicy</p>
-              <p class="cost">
-                <span class="dolar">$</span>
-                <strong class="strong-cost">27</strong>/month
-              </p>
-              <p class="trial">Billed $276 per website annualy</p>
-              <ul class="pricing-list">
-                <li class="prp">
-                  <ion-icon class="checkmark green" name="checkmark"></ion-icon
-                  >60-day chat history
-                </li>
-                <li class="prp">
-                  <ion-icon class="checkmark green" name="checkmark"></ion-icon
-                  >Data security
-                </li>
-                <li class="prp">
-                  <ion-icon class="checkmark green" name="checkmark"></ion-icon
-                  >100 GB could storage
-                </li>
-                <li class="prp">
-                  <ion-icon class="checkmark green" name="checkmark"></ion-icon
-                  >24/7 Support
-                </li>
-              </ul>
-              <button class="choose-plan">Choose plan</button>
-            </div>
-          </div>
-        </section>
-        <section class="review-section">
-          <div class="review-grid">
-            <div class="reviewer">
-              <img
-                alt="reviewer"
-                class="reviewer-img"
-                src="Project_Images/people/customer-2-removebg-preview.png"
-              />
-              <div class="star-icon">
-                <ion-icon class="star" name="star"></ion-icon>
-                <ion-icon class="star" name="star"></ion-icon>
-                <ion-icon class="star" name="star"></ion-icon>
-                <ion-icon class="star" name="star"></ion-icon>
-                <ion-icon class="star" name="star"></ion-icon>
-              </div>
-              <p class="review">(4.7) review</p>
-            </div>
-            <div class="reviewer-text-box">
-              <p class="reviewer-text">
-                Why I say old chap that is spiffing chip shop such a fibber the
-                bee's<br />
-                knees, the wirless Richard fantastic do one cracking goal
-                pukka<br />
-                baking cakes starkers much don't get shirty with me argy bargy,
-                I naff<br />
-                chimney pot blimey he lost his bottle cup.
-              </p>
-              <div class="reviewer-box">
-                <p class="reviewer-name">
-                  Hanson Deck<br /><span class="job">Web developer</span>
+            <div class="grid-pricing">
+              <div class="option">
+                <p class="pricing-type">Fresh</p>
+                <p class="cost">
+                  <span class="dolar">$</span>
+                  <strong class="strong-cost">04</strong>/month
                 </p>
-                <div>
-                  <ion-icon
-                    class="reviewer-icon"
-                    name="arrow-back-outline"
-                  ></ion-icon>
-                  <ion-icon
-                    class="reviewer-icon"
-                    name="arrow-forward-outline"
-                  ></ion-icon>
+                <p class="trial">Get your 14 day free trial</p>
+                <ul class="pricing-list">
+                  <li class="prp">
+                    <ion-icon class="checkmark" name="checkmark"></ion-icon
+                    >60-day chat history
+                  </li>
+                  <li class="prp">
+                    <ion-icon class="checkmark" name="checkmark"></ion-icon>15
+                    GB could storage
+                  </li>
+                  <li class="prp">
+                    <ion-icon class="checkmark" name="checkmark"></ion-icon>24/7
+                    Support
+                  </li>
+                </ul>
+                <button class="choose-plan">Choose plan</button>
+              </div>
+              <div class="option special">
+                <p class="pricing-type">Sweet</p>
+                <p class="cost">
+                  <span class="dolar">$</span>
+                  <strong class="strong-cost">16</strong>/month
+                </p>
+                <p class="trial">Billed $276 per website annualy</p>
+                <ul class="pricing-list">
+                  <li class="prp">
+                    <ion-icon class="checkmark" name="checkmark"></ion-icon
+                    >60-day chat history
+                  </li>
+                  <li class="prp">
+                    <ion-icon class="checkmark" name="checkmark"></ion-icon>50
+                    GB could storage
+                  </li>
+                  <li class="prp">
+                    <ion-icon class="checkmark" name="checkmark"></ion-icon>24/7
+                    Support
+                  </li>
+                </ul>
+                <button class="choose-plan sp">Choose plan</button>
+              </div>
+              <div class="option">
+                <p class="pricing-type">Juicy</p>
+                <p class="cost">
+                  <span class="dolar">$</span>
+                  <strong class="strong-cost">27</strong>/month
+                </p>
+                <p class="trial">Billed $276 per website annualy</p>
+                <ul class="pricing-list">
+                  <li class="prp">
+                    <ion-icon
+                      class="checkmark green"
+                      name="checkmark"
+                    ></ion-icon
+                    >60-day chat history
+                  </li>
+                  <li class="prp">
+                    <ion-icon
+                      class="checkmark green"
+                      name="checkmark"
+                    ></ion-icon
+                    >Data security
+                  </li>
+                  <li class="prp">
+                    <ion-icon
+                      class="checkmark green"
+                      name="checkmark"
+                    ></ion-icon
+                    >100 GB could storage
+                  </li>
+                  <li class="prp">
+                    <ion-icon
+                      class="checkmark green"
+                      name="checkmark"
+                    ></ion-icon
+                    >24/7 Support
+                  </li>
+                </ul>
+                <button class="choose-plan">Choose plan</button>
+              </div>
+            </div>
+            <div class="review-grid">
+              <div class="reviewer">
+                <img
+                  alt="reviewer"
+                  class="reviewer-img"
+                  src="Project_Images/people/customer-2-removebg-preview.png"
+                />
+                <div class="star-icon">
+                  <ion-icon class="star" name="star"></ion-icon>
+                  <ion-icon class="star" name="star"></ion-icon>
+                  <ion-icon class="star" name="star"></ion-icon>
+                  <ion-icon class="star" name="star"></ion-icon>
+                  <ion-icon class="star" name="star"></ion-icon>
+                </div>
+                <p class="review">(4.7) review</p>
+              </div>
+              <div class="reviewer-text-box">
+                <p class="reviewer-text">
+                  Why I say old chap that is spiffing chip shop such a fibber
+                  the bee's<br />
+                  knees, the wirless Richard fantastic do one cracking goal
+                  pukka<br />
+                  baking cakes starkers much don't get shirty with me argy
+                  bargy, I naff<br />
+                  chimney pot blimey he lost his bottle cup.
+                </p>
+                <div class="reviewer-box">
+                  <p class="reviewer-name">
+                    Hanson Deck<br /><span class="job">Web developer</span>
+                  </p>
+                  <div>
+                    <ion-icon
+                      class="reviewer-icon"
+                      name="arrow-back-outline"
+                    ></ion-icon>
+                    <ion-icon
+                      class="reviewer-icon"
+                      name="arrow-forward-outline"
+                    ></ion-icon>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-        <section class="platforms-section">
-          <div class="sponser-box">
-            <p class="sponser-heading">
-              Appie works best with<br />
-              your favorite platforms
-            </p>
-            <p class="sponser-text">Join over 40.000 businesses worldwide.</p>
-          </div>
-          <div class="sponser-grid">
-            <img
-              alt="sponser"
-              class="sponser"
-              src="./Project_Images/sponsers/sponser-1.png"
-            />
-            <img
-              alt="sponser"
-              class="sponser"
-              src="./Project_Images/sponsers/sponser-2.png"
-            />
-            <img
-              alt="sponser"
-              class="sponser"
-              src="./Project_Images/sponsers/sponser-3.png"
-            />
-            <img
-              alt="sponser"
-              class="sponser"
-              src="./Project_Images/sponsers/sponser-4.png"
-            />
-            <img
-              alt="sponser"
-              class="sponser"
-              src="./Project_Images/sponsers/sponser-5.png"
-            />
-            <img
-              alt="sponser"
-              class="sponser"
-              src="./Project_Images/sponsers/sponser-6.png"
-            />
-            <img
-              alt="sponser"
-              class="sponser"
-              src="./Project_Images/sponsers/sponser-7.png"
-            />
-            <img
-              alt="sponser"
-              class="sponser"
-              src="./Project_Images/sponsers/sponser-8.png"
-            />
-            <img
-              alt="sponser"
-              class="sponser"
-              src="./Project_Images/sponsers/sponser-9.png"
-            />
-            <img
-              alt="sponser"
-              class="sponser"
-              src="./Project_Images/sponsers/sponser-10.png"
-            />
-          </div>
-        </section>
+            <div class="sponser-box">
+              <p class="sponser-heading">
+                Appie works best with<br />
+                your favorite platforms
+              </p>
+              <p class="sponser-text">Join over 40.000 businesses worldwide.</p>
+            </div>
+            <div class="sponser-grid">
+              <img
+                alt="sponser"
+                class="sponser"
+                src="./Project_Images/sponsers/sponser-1.png"
+              />
+              <img
+                alt="sponser"
+                class="sponser"
+                src="./Project_Images/sponsers/sponser-2.png"
+              />
+              <img
+                alt="sponser"
+                class="sponser"
+                src="./Project_Images/sponsers/sponser-3.png"
+              />
+              <img
+                alt="sponser"
+                class="sponser"
+                src="./Project_Images/sponsers/sponser-4.png"
+              />
+              <img
+                alt="sponser"
+                class="sponser"
+                src="./Project_Images/sponsers/sponser-5.png"
+              />
+              <img
+                alt="sponser"
+                class="sponser"
+                src="./Project_Images/sponsers/sponser-6.png"
+              />
+              <img
+                alt="sponser"
+                class="sponser"
+                src="./Project_Images/sponsers/sponser-7.png"
+              />
+              <img
+                alt="sponser"
+                class="sponser"
+                src="./Project_Images/sponsers/sponser-8.png"
+              />
+              <img
+                alt="sponser"
+                class="sponser"
+                src="./Project_Images/sponsers/sponser-9.png"
+              />
+              <img
+                alt="sponser"
+                class="sponser"
+                src="./Project_Images/sponsers/sponser-10.png"
+              />
+            </div>
+          </section>
+        </div>
       </main>
     </div>
     <footer>

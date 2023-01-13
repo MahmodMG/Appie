@@ -1,0 +1,22 @@
+@media (max-width: 39em) {
+  body {
+    max-width: 39rem;
+  }
+  html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  .header {
+    padding: 0 1rem;
+  }
+  .nav-list {
+    display: none;
+  }
+  .btn-mobile-nav {
+    display: block;
+  }
+  .btn {
+    padding: 1rem 0.2rem;
+  }
+}
