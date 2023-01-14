@@ -216,6 +216,12 @@
   .learn-how-img {
     display: grid;
   }
+  .video-thumb {
+    max-width: 100%;
+  }
+  .video-slide {
+    max-width: 100%;
+  }
   .learn-text {
     font-size: 5.2rem;
   }
@@ -264,8 +270,7 @@
     flex-direction: column;
     align-items: center;
   }
-  .reviewer-img,
-  img {
+  .reviewer-img {
     width: 50%;
   }
   .reviewer-text {
