@@ -1,22 +1,222 @@
-@media (max-width: 39em) {
-  body {
-    max-width: 39rem;
-  }
+@media (max-width: 24.375em) {
   html {
-    font-size: 62.5%;
+    font-size: 18%;
     overflow-x: hidden;
     scroll-behavior: smooth;
   }
-  .header {
-    padding: 0 1rem;
-  }
-  .nav-list {
+
+  .nav {
     display: none;
   }
   .btn-mobile-nav {
     display: block;
+    z-index: 9999;
   }
-  .btn {
-    padding: 1rem 0.2rem;
+  .section-hero {
+    padding: 4.6rem 12rem 0 12rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-description {
+    font-size: 3.6rem;
+  }
+
+  .email-box {
+    margin-bottom: 3.6rem;
+    /* margin-top: 4.8rem; */
+    display: flex;
+  }
+  #email {
+    padding: 2rem 35rem;
+  }
+  #email,
+  .placeholder {
+    font-size: 3.6rem;
+    padding-left: 8rem;
+  }
+  .mail-icon {
+    height: 4rem;
+    width: 4rem;
+    transform: translate(15px);
+  }
+  .arrow-icon {
+    height: 4rem;
+    width: 4rem;
+    transform: translate(-8px);
+  }
+  .testimonial {
+    margin-bottom: 3.6rem;
+  }
+  /* .people-img {
+  } */
+  .people {
+    height: 8rem;
+    width: 8rem;
+    margin-right: -3rem;
+  }
+  .testimonial-text {
+    font-size: 5.2rem;
+  }
+  .feedback {
+    font-size: 2.4rem;
+  }
+
+  .hero-img {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .hero-image {
+    width: 50%;
+  }
+  /* //////////////// */
+
+  .feature-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .feature-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+    gap: 1rem;
+  }
+  .heading-secondary {
+    font-size: 8rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .feature-text {
+    font-size: 3rem;
+  }
+  .btn-feature {
+    font-size: 2.4rem;
+    padding: 2rem 4rem;
+  }
+  /* //////////////// */
+  .grid-3-col {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 10rem;
+  }
+  h3 {
+    font-size: 5.2rem;
+  }
+  .grid-text {
+    margin-top: 2.6rem;
+    margin-bottom: 4.8rem;
+    font-size: 3.6rem;
+    text-align: center;
+  }
+  .icony {
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 2.8rem;
+  }
+  .grid-more {
+    font-size: 2.4rem;
+  }
+  /* //// */
+  .picture {
+    display: none;
+  }
+  .grid-2-cols {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+  }
+  .market {
+    font-size: 3.6rem;
+    text-align: center;
+  }
+  h2 {
+    font-size: 7rem;
+    text-align: center;
+  }
+  .market-text {
+    text-align: center;
+    font-size: 3rem;
+    margin: 4.8rem 0;
+  }
+  .marketing {
+    background-color: #eef1f6;
+    padding: 6rem;
+  }
+  .advantages {
+    padding-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+  }
+  .right {
+    height: 4rem;
+    width: 4rem;
+  }
+  .heading-design {
+    letter-spacing: -0.5px;
+    font-weight: 700;
+    font-size: 4rem;
+  }
+  .description-design {
+    font-size: 3rem;
+  }
+  /* ///////////////// */
+  .section-needs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid-2-cols-padding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5.2rem;
+    gap: 4.8rem;
+  }
+  /* ////////////// */
+  .statistics-head {
+    text-align: center;
+  }
+  .statistics-text {
+    text-align: center;
+  }
+  .statistics-container {
+    gap: 5rem;
+    flex-direction: column;
+  }
+  .statistics-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .learn-how-img {
+    display: grid;
+  }
+  .how-button {
+    display: none;
+  }
+  .learn-how {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .market-text.app {
+    margin-top: 1.2rem;
+    text-align: start;
+  }
+  .grid-pricing {
+    grid-template-columns: 1fr;
   }
 }
