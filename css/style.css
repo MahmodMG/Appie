@@ -178,14 +178,14 @@
   font-weight: 700;
   color: #0f1234;
   letter-spacing: -1px;
-  font-size: 3.6rem;
+  font-size: 4.4rem;
   line-height: 1.05;
   margin-bottom: 1.8rem;
 }
 .feature-text {
   font-weight: 400;
   color: #0f1234;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
 }
 .btn-feature,
 .btn-feature:visited,
@@ -496,6 +496,9 @@ h4 {
   box-shadow: 1px 1px 1px 0px #fff;
   border: 1px solid #fff;
 }
+.learn-how-hidden {
+  display: none;
+}
 .learn-how-img {
   margin-top: 9.6rem;
   margin-bottom: 4.8rem;
@@ -762,6 +765,7 @@ h4 {
   top: 4%;
   right: -3%;
 }
+/* /////////////////// */
 .review-grid {
   margin-top: 6.9rem;
   margin-bottom: 6.9rem;
@@ -827,6 +831,14 @@ h4 {
   padding: 1.2rem 1.2rem;
   margin-right: 1rem;
 }
+.sponser-grid {
+  margin: 0 20rem;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr 1fr;
+  row-gap: 2rem;
+}
 .sponser-box {
   display: flex;
   flex-direction: column;
@@ -846,21 +858,13 @@ h4 {
   color: #52525f;
   margin-bottom: 4.8rem;
 }
-.sponser-grid {
-  margin: 0 20rem;
-  display: grid;
-  justify-items: center;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 1fr 1fr;
-  row-gap: 2rem;
-}
 .sponser {
   align-self: center;
   padding: 2.4rem 2.4rem;
   border: 1px solid #fff;
   box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.185);
 }
-.sponser:nth-child(10) {
+/*.sponser:nth-child(10) {
   grid-column: -3/-2;
   justify-self: end;
 }
@@ -874,6 +878,7 @@ h4 {
   justify-self: start;
   grid-column: -6/-5;
 }
+*/
 footer {
   margin-top: 9.6rem;
   background-color: #eef1f6;

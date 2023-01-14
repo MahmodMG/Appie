@@ -1,5 +1,6 @@
 @media (max-width: 24.375em) {
   html {
+    width: fit-content;
     font-size: 18%;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -20,13 +21,14 @@
     justify-content: center;
     align-items: center;
   }
+
   .hero-description {
     font-size: 3.6rem;
   }
 
   .email-box {
     margin-bottom: 3.6rem;
-    /* margin-top: 4.8rem; */
+    margin-top: 4.8rem;
     display: flex;
   }
   #email {
@@ -100,6 +102,7 @@
   }
   /* //////////////// */
   .grid-3-col {
+    margin-top: 18rem;
     display: flex;
     flex-direction: column;
   }
@@ -195,28 +198,121 @@
   .statistics-container {
     gap: 5rem;
     flex-direction: column;
+    align-items: center;
   }
   .statistics-box {
+    width: fit-content;
+    text-align: center;
+    padding: 4.8rem 12rem;
+    /* display: flex; */
+    /* flex-direction: column;
+    align-items: center; */
+  }
+  .learn-how-hidden {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
   }
   .learn-how-img {
     display: grid;
   }
+  .learn-text {
+    font-size: 5.2rem;
+  }
+  .learn-des {
+    font-size: 2.8rem;
+    padding-right: 20rem;
+  }
   .how-button {
     display: none;
   }
+  .play {
+    padding: 6rem 6rem;
+    /* transform: translate(-50%, -120%); */
+    left: 50%;
+    top: 50%;
+  }
   .learn-how {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: none;
   }
   .market-text.app {
     margin-top: 1.2rem;
     text-align: start;
   }
   .grid-pricing {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+  .option {
+    padding: 4.2rem 4.8rem;
+    width: max-content;
+  }
+  .choose-plan {
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    font-weight: 400;
+  }
+  /* //////////// */
+  .reviewer-icon {
+    display: none;
+  }
+  .review-grid {
+    background-image: none;
+    background-color: #2b6ff4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .reviewer-img,
+  img {
+    width: 50%;
+  }
+  .reviewer-text {
+    text-align: center;
+  }
+  .reviewer-box {
+    align-items: center;
+    justify-content: center;
+  }
+  .reviewer-name {
+    text-align: center;
+  }
+  /* ////////// */
+  .sponser-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .sponser:nth-child(10) {
+    grid-column: -3/-2;
+  }
+  /* /////// */
+  .footer-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .social-media {
+    text-align: center;
+  }
+  .social-icons {
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-header {
+    text-align: center;
+  }
+  .contact-list {
+    text-align: center;
+  }
+  .footer-copy {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer-copy-button {
+    text-align: center;
+    margin: 4.8rem 0;
+  }
+  .copy-right {
+    text-align: center;
   }
 }
